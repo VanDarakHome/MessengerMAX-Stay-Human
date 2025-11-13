@@ -33,7 +33,7 @@ class GameEngine:
         for i in current_info['next']:
             location = self.game_map[i]
             spisok.append({
-                'id': location_id,
+                'id': i,
                 'name': location['name']
             }) 
         return spisok
